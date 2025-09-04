@@ -28,13 +28,13 @@ pip install -r requirements.txt
 
 ## Utilisation
 
-bash
+```bash
 cd dags/common
 python extract.py     # Extraction
 python transform.py   # Nettoyage
 python enrich.py      # Enrichissement
 python aggregate.py   # Agrégation
-
+```
 
 ## KPI produits
 
